@@ -1,6 +1,13 @@
 {
   "name": "angular-picture",
   "description": "AngularJS directive for Picturefill 2",
+  "keywords": [
+    "angular",
+    "html5",
+    "polyfill",
+    "responsive"
+  ],
+  "homepage": "https://github.com/rebelliard/angular-picture",
   "version": "0.1",
   "main": "src/angular-picture.js",
   "dependencies": {
