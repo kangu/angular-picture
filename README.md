@@ -2,6 +2,11 @@
 
 Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/) responsive image polyfill.
 
+## Installation
+
+1. `bower install angular-picture`
+2. Include `ngPicturefill` in your Angular module.
+
 ## Usage
 
 ```
@@ -31,4 +36,4 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 	* Alias: `lg-desktop`
 * `landscape`: Landscape mode.
 * `portrait`: Portrait mode.
-* `retina`: [Retina](https://github.com/c0bra/angular-responsive-images/blob/master/src/bh-responsive-images.js) display.
+* `retina`: Retina display.
