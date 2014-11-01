@@ -9,7 +9,7 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 
 ## Usage
 
-```
+```html
 <picture picturefill>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
     <!-- Preset media queries -->
