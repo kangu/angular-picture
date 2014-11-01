@@ -21,14 +21,14 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 
 ### Preset media queries
 
-* `screen-xs`
+* `screen-xs`: Extra small devices (phones, less than 768px).
 	* Alias: `phone`
-* `screen-sm`
+* `screen-sm`: Small devices (tablets, 768px and up).
 	* Alias: `tablet`
-* `screen-md`
+* `screen-md`: Medium devices (desktops, 992px and up).
 	* Alias: `desktop`
-* `screen-lg`
+* `screen-lg`: Large devices (large desktops, 1200px and up).
 	* Alias: `lg-desktop`
-* `landscape`
-* `portrait`
-* `retina`
+* `landscape`: Landscape mode.
+* `portrait`: Portrait mode.
+* `retina`: [Retina](https://github.com/c0bra/angular-responsive-images/blob/master/src/bh-responsive-images.js) display.
