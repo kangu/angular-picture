@@ -29,7 +29,7 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
     <!-- Custom media query -->
     <source srcset="images/logo_3x.png" pf-media="(min-width: 1000px)" />
     <!--[if IE 9]></video><![endif]-->
-    <image srcset="images/logo.png"/>
+    <img srcset="images/logo.png"/>
 </picture>
 ```
 
