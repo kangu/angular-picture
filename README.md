@@ -10,8 +10,17 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 ## Usage
 
 ```html
+<!-- Avoid including an `src` attribute, as it would unnecessarily get read by all browsers -->
+<image picturefill srcset="/static/app/images/logo.png, /static/app/images/logo.png 2x"/>
+```
+
+### Using a `picture` element
+
+```html
 <picture picturefill>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <!-- Displays with 2 device pixels per CSS pixel -->
+    <source srcset="images/logo.png, images/logo_2x.png 2x"/>
     <!-- Preset media queries -->
     <source srcset="images/logo_4x.png" pf-media="screen-lg" />
     <source srcset="images/logo_3x.png" pf-media="screen-md"/>
@@ -20,11 +29,11 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
     <!-- Custom media query -->
     <source srcset="images/logo_3x.png" pf-media="(min-width: 1000px)" />
     <!--[if IE 9]></video><![endif]-->
-    <image srcset="images/logo.png" alt="Logo"/>
+    <image srcset="images/logo.png"/>
 </picture>
 ```
 
-### Preset media queries
+#### Preset media queries
 
 * `screen-xs`: Extra small devices (phones, less than 768px).
 	* Alias: `phone`
