@@ -11,7 +11,7 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 
 ```html
 <!-- Avoid including an `src` attribute, as it would unnecessarily get read by all browsers -->
-<img picturefill srcset="/static/app/images/logo.png, /static/app/images/logo_2x.png 2x"/>
+<img picturefill srcset="images/logo.png, logo_2x.png 2x"/>
 <img picturefill ng-srcset="{{ logo }}, {{ logo_2x }} 2x"/>
 ```
 
