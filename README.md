@@ -37,3 +37,8 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 * `landscape`: Landscape mode.
 * `portrait`: Portrait mode.
 * `retina`: Retina display.
+
+## Read more
+
+* [Responsive Images Community Group](http://responsiveimages.org/)
+* [Responsive Images Done Right: A Guide To  And srcset | Smashing Magazine](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
