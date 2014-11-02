@@ -5,6 +5,7 @@
     "angular",
     "html5",
     "polyfill",
+    "picturefill",
     "responsive"
   ],
   "homepage": "https://github.com/rebelliard/angular-picture",
