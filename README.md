@@ -23,12 +23,12 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
     <!-- Displays with 2 device pixels per CSS pixel -->
     <source srcset="images/logo.png, images/logo_2x.png 2x"/>
     <!-- Preset media queries -->
-    <source srcset="images/logo_4x.png" pf-media="screen-lg" />
+    <source srcset="images/logo_4x.png" pf-media="screen-lg"/>
     <source srcset="images/logo_3x.png" pf-media="screen-md"/>
     <source srcset="images/logo_2x.png" pf-media="screen-sm"/>
     <source srcset="images/logo_1x.png" pf-media="screen-xs"/>
     <!-- Custom media query -->
-    <source srcset="images/logo_3x.png" pf-media="(min-width: 1000px)" />
+    <source srcset="images/logo_3x.png" pf-media="(min-width: 1000px)"/>
     <!--[if IE 9]></video><![endif]-->
     <img srcset="images/logo.png"/>
 </picture>
