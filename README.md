@@ -41,4 +41,5 @@ Angular directive for the [Picturefill](http://scottjehl.github.io/picturefill/)
 ## Read more
 
 * [Responsive Images Community Group](http://responsiveimages.org/)
-* [Responsive Images Done Right: A Guide To  And srcset | Smashing Magazine](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
+* [Responsive Images Done Right: A Guide To `picture` And `srcset` | Smashing Magazine](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
+* [The `srcset` attribute](http://www.webkit.org/demos/srcset/)
