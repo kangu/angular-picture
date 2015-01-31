@@ -10,9 +10,9 @@ angular.module('ngPicturefill', [])
       controller: 'PictureFillCtrl',
     };
   }])
-  .controller('PictureFillCtrl', function ($timeout) {
+  .controller('PictureFillCtrl', ['$timeout', function ($timeout) {
     $timeout(picturefill);
-  })
+  }])
   // Preset media queries, inspired by:
   // - https://github.com/twbs/bootstrap/blob/master/less/variables.less
   // - https://github.com/c0bra/angular-responsive-images/blob/master/src/bh-responsive-images.js
