@@ -12,7 +12,7 @@
   "version": "0.1",
   "main": "src/angular-picture.js",
   "dependencies": {
-    "picturefill": "~2.1.0",
-    "angular": "~1.2.0"
+    "picturefill": "^2.1.0",
+    "angular": "^1.2.0"
   }
 }
