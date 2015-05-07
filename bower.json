@@ -9,7 +9,7 @@
     "responsive"
   ],
   "homepage": "https://github.com/rebelliard/angular-picture",
-  "version": "0.1",
+  "version": "0.1.1",
   "main": "src/angular-picture.js",
   "dependencies": {
     "picturefill": "^2.1.0",
